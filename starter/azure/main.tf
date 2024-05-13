@@ -48,7 +48,7 @@ resource "azurerm_service_plan" "example" {
 }
 
 resource "azurerm_windows_function_app" "example" {
-  name                = "udacity-tscotto-windows-function-app"
+  name                = "udacity-jonathan-windows-function-app"
   resource_group_name = data.azurerm_resource_group.udacity.name
   location            = data.azurerm_resource_group.udacity.location
 
